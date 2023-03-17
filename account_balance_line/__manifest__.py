@@ -12,5 +12,7 @@
     "application": False,
     "installable": True,
     "depends": ["account"],
-    "data": ["views/account_move_line_view.xml"],
+    "data": [
+        # "views/account_move_line_view.xml"
+        ],
 }
