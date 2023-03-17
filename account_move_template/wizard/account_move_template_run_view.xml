@@ -56,7 +56,6 @@ dicts and finding IDs of partners!
                             <field
                                 name="analytic_tag_ids"
                                 widget="many2many_tags"
-                                groups="analytic.group_analytic_tags"
                             />
                             <field
                                 name="tax_line_id"
