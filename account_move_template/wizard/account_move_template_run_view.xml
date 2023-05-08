@@ -9,7 +9,6 @@
                     <field
                         name="template_id"
                         widget="selection"
-                        domain="[('company_id', '=', company_id)]"
                         attrs="{'readonly': [('state', '=', 'set_lines')]}"
                     />
                     <field
@@ -45,12 +44,10 @@ dicts and finding IDs of partners!
                             <field name="name" />
                             <field
                                 name="account_id"
-                                domain="[('company_id','=',company_id)]"
                             />
                             <field name="partner_id" />
                             <field
                                 name="analytic_account_id"
-                                domain="[('company_id','=',company_id)]"
                                 groups="analytic.group_analytic_accounting"
                             />
                             <field
